@@ -1,6 +1,7 @@
 """
-	Decorator
-		decorator pattern != python decorator
+    structual
+	    Decorator
+		    decorator pattern != python decorator
 """
 
 
