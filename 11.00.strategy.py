@@ -31,3 +31,6 @@ class Left(Direction):
 
 c1 = Context(Right(), 'Hello World...')
 c1.sorting()
+
+c2 = Context(Left(), 'Hello World...')
+c2.sorting()
