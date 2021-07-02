@@ -15,4 +15,7 @@ class A:
 
 
 a1 = A('john')
-print(a1)
+a2 = A('sajjad')
+
+print(a1.name)
+print(a2.name)
