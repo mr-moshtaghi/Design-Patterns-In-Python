@@ -17,5 +17,7 @@ class A:
 a1 = A('john')
 a2 = A('sajjad')
 
-print(a1.name)
+print(a1)
+print(a1.__class__.__class__)
+
 print(a2.name)
