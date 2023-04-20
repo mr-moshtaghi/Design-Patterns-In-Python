@@ -133,12 +133,12 @@ def show5(text):
 print("5. passing arguments to the decorators")
 print(show5('how are you...'))
 
-
 ####################################################
 
 ########## 6. debugging decorators ##########
 
 import functools
+
 
 def outer_deco6(v1, v2):
     def outer_upper6(func):
@@ -165,6 +165,7 @@ print("6. debugging decorators")
 print(show6('how are you...'))
 print(show6.__doc__)
 print(show6.__name__)
+
 
 def outer_deco7(v1, v2):
     def outer_upper7(func):
